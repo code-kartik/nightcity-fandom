@@ -1,3 +1,45 @@
-.p{
-    color: blue;
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-image {
+    background-image: url('assets/img/cyberpunk-nightcity.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align:center;
+    color: white;
+}
+
+.heading {
+    max-width: 800px;
+    backdrop-filter: blur(4px);
+    font-family: 'SDGlitch_Demo.ttf';
+    src: url('assets/fonts/SDGlitch_Demo.ttf');
+    background-color: rgba(0, 0, 0, 0.25); /* Semi-transparent background */
+}
+
+h1 {
+    font-size: 4.5rem;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .phone-list {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
+
+@font-face {
+    font-family: 'SDGlitch_Demo.ttf';
+    src: url("assets/fonts/SDGlitch_Demo.ttf");
 }
