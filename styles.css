@@ -22,7 +22,7 @@
     backdrop-filter: blur(4px);
     font-family: 'SDGlitch_Demo.ttf';
     src: url('assets/fonts/SDGlitch_Demo.ttf');
-    background-color: rgba(0, 0, 0, 0.25); /* Semi-transparent background */
+    background-color: rgba(81, 0, 134, 0.25); /* Semi-transparent background */
 }
 
 h1 {
