@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    flex-direction: column;
 }
 
 .background-image {
@@ -11,8 +12,7 @@
     background-position: center;
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: start;
+    align-items: center;
     text-align:center;
     color: white;
 }
@@ -21,8 +21,16 @@
     max-width: 800px;
     backdrop-filter: blur(4px);
     font-family: 'SDGlitch_Demo.ttf';
-    src: url('assets/fonts/SDGlitch_Demo.ttf');
-    background-color: rgba(81, 0, 134, 0.25); /* Semi-transparent background */
+    background-color: rgba(81, 0, 134, 0.25);
+}
+
+.subheading{
+    background-color: rgba(0, 0, 0, 0.75);
+    color: yellow;
+    font-size:medium;
+    font-family: 'SDGlitch_Demo.ttf';
+    backdrop-filter: blur(8px);
+    padding: 8px;
 }
 
 h1 {
